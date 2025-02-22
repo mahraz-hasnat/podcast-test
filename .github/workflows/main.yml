@@ -3,9 +3,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
-        uses: mahraz-hasnat/podcast-generator@main
-        
+        uses: planetoftheweb/podcast-generator@main
